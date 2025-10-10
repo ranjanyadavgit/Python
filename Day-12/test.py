@@ -15,4 +15,4 @@ with open("file_path","w") as file:
       file.write(line)
 
 # update_server_config(server_config_file, key_to_update,new_value)
- update_server_config(file_path,"MAX_CONNECTIONS","3000")   
+ update_server_config(file_path,"MAX_CONNECTIONS","5000")   
